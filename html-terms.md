@@ -38,4 +38,6 @@ id="text" - attribute identify
   Video not supported
 < /video > - The controls attribute instructs the browser to include basic video controls such as pausing and playing.  The text, Video not supported, between the opening and closing video tags will only be displayed if the browser is unable to load the video.
 
+< a href="URL" target="_blank" >Link Name</a > - URL, target attribute blank - open in new window
+
 HTML - site structure. CSS - це його наповнення. JavaScript - actions на сайті.
