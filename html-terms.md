@@ -40,4 +40,10 @@ id="text" - attribute identify
 
 < a href="URL" target="_blank" >Link Name</a > - URL, target attribute blank - open in new window
 
+**Index**
+< p id="top" >Top< /p >
+< a href="#top" >Top< /a >
+
+<!-- Comment -->
+
 HTML - site structure. CSS - це його наповнення. JavaScript - actions на сайті.
