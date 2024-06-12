@@ -34,11 +34,23 @@ id="text" - attribute identify
 < ol > < li > < /li > < /ol > - ordered list
 < img src="" alt="" / > - src - URL, alt - image description
 
+< a href="URL" target="_blank" >Link Name</a > - URL, target attribute blank - open in new window
+
+**Video**
+
 < video src="myVideo.mp4" width="320" height="240" controls >
   Video not supported
 < /video > - The controls attribute instructs the browser to include basic video controls such as pausing and playing.  The text, Video not supported, between the opening and closing video tags will only be displayed if the browser is unable to load the video.
 
-< a href="URL" target="_blank" >Link Name</a > - URL, target attribute blank - open in new window
+**Audio**
+
+< audio autoplay controls >
+
+  < source src="iAmAnAudioFile.mp3" type="audio/mp3" >
+  
+< /audio >
+
+List of audio attributes: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio#attributes
 
 **Index**
 < p id="top" >Top< /p >
