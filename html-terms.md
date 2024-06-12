@@ -46,4 +46,30 @@ id="text" - attribute identify
 
 <!-- Comment -->
 
+**Table**
+
+< table >
+
+   < tr >  - Table row
+
+    < th scope="row" >< /th > - Table heading element, scope attribute - "row" - this value makes it clear that the heading is for a row, "col" - this value makes it clear that the heading is for a column
+    
+   < /tr >
+   
+   < tr > - Table row
+   
+       < td >73< /td > - data points
+       
+   < /tr >
+   
+< /table >
+
+**Forms**
+
+< form action="/example.html" method="POST" >
+
+< input type="text" name="first-text-field" value="already pre-filled" >
+
+< /form >
+
 HTML - site structure. CSS - це його наповнення. JavaScript - actions на сайті.
