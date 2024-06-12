@@ -64,11 +64,62 @@ id="text" - attribute identify
    
 < /table >
 
-**Forms**
+**Forms Input**
 
 < form action="/example.html" method="POST" >
 
-< input type="text" name="first-text-field" value="already pre-filled" >
+  < label for="meal" >What do you want to eat?< /label >
+
+  < input type="text" name="food" id="meal" >
+
+< /form >
+
+< input type ="password" > element will replace input text with another character like an asterisk (*) or a dot (•)
+
+**Number input** - < input id="years" name="years" **type="number"** step="1" >
+
+**Slider** - < input id="volume" name="volume" **type="range" min="0" max="100" step="1"** >
+Smaller step values will make the slider move more fluidly, whereas larger step values will make the slider move more noticeably
+
+**Checkbox** - < input id="cheese" name="topping" **type="checkbox"** value="cheese" >
+
+**Radio button** - < input type="radio" id="two" name="answer" value="2" > 
+
+**Dropdown list**
+
+  < select id="lunch" name="lunch" >
+  
+    < option value="pizza">Pizza</option >
+    
+    < option value="curry">Curry</option >
+    
+    < option value="salad">Salad</option >
+    
+  < /select >
+
+  **Datalist Input** - users can type in the input field to search for a particular option. If none of the options match, the user can still use what they typed in
+
+ < input type="text" **list="cities"** id="city" name="city" >
+
+  < datalist id="cities" >
+    
+    <option value="New York City"></option>
+    
+    <option value="Tokyo"></option>
+    
+    <option value="Barcelona"></option>
+    
+  < /datalist >
+
+**Textarea** - cases where users need to write in more information, like a blog post
+
+< textarea id="blog" name="blog" rows="5" cols="30" > Adding default text < /textarea >
+
+**Submit form**
+
+< form >
+
+< input type="submit" value="Send" >
 
 < /form >
 
