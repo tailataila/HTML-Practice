@@ -123,4 +123,14 @@ Smaller step values will make the slider move more fluidly, whereas larger step 
 
 < /form >
 
+**Form validation** - required fields should be filled in < input id="allergies" name="allergies" type="text" **required** >
+
+**Min and max number of charecters to submit** - < input id="summary" name="summary" type="text" **minlength="5" maxlength="250"** required >
+
+**Matching a Pattern** - check for a valid credit card number (a 14 to 16 digit number). We could use the regex: [0-9]{14,16} which checks that the user provided only numbers and that they entered at least 14 digits and at most 16 digits. limit usernames to only letters and numbers [a-zA-Z0-9]+
+
+  < input id="payment" name="payment" type="text" **required pattern="[0-9]{14,16}"** >
+  
+  < input type="submit" value="Submit" >
+
 HTML - site structure. CSS - це його наповнення. JavaScript - actions на сайті.
