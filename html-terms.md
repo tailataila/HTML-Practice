@@ -145,4 +145,18 @@ Smaller step values will make the slider move more fluidly, whereas larger step 
   
   < input type="submit" value="Submit" >
 
+  **CSS**
+
+  p { color: blue; } - p - selector, brackets and inside brackets - declaration block, inside brackets - declaration, color - property, blue - value
+
+  **Linking HTML and CSS together**
+
+  < link href='https://www.codecademy.com/stylesheets/style.css' rel='stylesheet' >
+  
+  < link href='./style.css' rel='stylesheet' > - stored in the same directory
+
+  CSS classes are meant to be reused over many elements.
+
+  ID is meant to style only one element. IDs override the styles of types and classes.
+
 HTML - site structure. CSS - це його наповнення. JavaScript - actions на сайті.
