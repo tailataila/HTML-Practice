@@ -181,4 +181,16 @@ Smaller step values will make the slider move more fluidly, whereas larger step 
   
 }
 
+**Border** width, style, color, border-radius
+
+p {
+
+  border: 3px solid coral; 
+  border-radius: 5px;
+}
+
+You can create a border that is a perfect circle by first creating an element with the same width and height, and then setting the radius equal to half the width of the box, which is 50%.
+
+Padding is the space between the contents of a box and the borders of a box.
+
 HTML - site structure. CSS - це його наповнення. JavaScript - actions на сайті.
