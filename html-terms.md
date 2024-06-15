@@ -193,4 +193,58 @@ You can create a border that is a perfect circle by first creating an element wi
 
 Padding is the space between the contents of a box and the borders of a box.
 
+**Overflow**
+
+p {
+
+  overflow: scroll; 
+  
+}
+
+The **overflow** property controls what happens to content that spills, or overflows, outside its box. The most commonly used values are:
+
+hidden—when set to this value, any content that overflows will be hidden from view.
+
+scroll—when set to this value, a scrollbar will be added to the element’s box so that the rest of the content can be viewed by scrolling.
+
+visible—when set to this value, the overflow content will be displayed outside of the containing element. Note, this is the default value.
+
+**Resetting Defaults**
+
+"*" {
+
+  margin: 0;
+  
+  padding: 0;
+  
+}
+
+The code in the example above resets the default margin and padding values of all HTML elements. It is often the first CSS rule in an external stylesheet.
+
+**Visibility**
+
+Elements can be hidden from view with the visibility property.
+
+hidden — hides an element.
+
+visible — displays an element.
+
+collapse — collapses an element.
+
+The difference between display: none and visibility: hidden? An element with display: none will be completely removed from the web page. An element with visibility: hidden, however, will not be visible on the web page, but the space reserved for it will.
+
+**Box Model**
+
+Content-vox model - defaul
+
+box-sizing: content-box
+
+Bordr box model - In this box model, the height and width of the box will remain fixed.
+
+"*" {
+
+  box-sizing: border-box;
+  
+}
+
 HTML - site structure. CSS - це його наповнення. JavaScript - actions на сайті.
