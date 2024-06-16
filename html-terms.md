@@ -247,4 +247,22 @@ Bordr box model - In this box model, the height and width of the box will remain
   
 }
 
+**Positioning**
+
+The default position of an element can be changed by setting its **position** property.
+
+The position property can take one of five values:
+
+**static** - the default value, **relative** (relative to its statick position - top, bottom, left, right), **absolute** (all other elements on the page will ignore the element and act like it is not present on the page), **fixed** (fix an element to a specific position on the page regardless of user scrolling), **sticky** (keeps an element in the document flow as the user scrolls, but sticks to a specified position as the page is scrolled further)
+
+**Z-index** property controls how far back or how far forward an element should appear on the web page when elements overlap (does not work on static elements).
+
+**Display**
+
+Display property values - **inline** exemple < strong > (inline elements cannot be altered in size with the height or width, share line with other elements), **block** exemple < h1 > (not displayed in the same line as the content around them), and **inline-block** example image (can appear next to each other and we can specify their dimensions using the width and height properties).
+
+**Float** is moving an element as far left or as far right as possible in the container. The float property is commonly used for wrapping text around an image. 
+
+**Clear** property specifies how elements should behave when they bump into each other on the page.
+
 HTML - site structure. CSS - це його наповнення. JavaScript - actions на сайті.
