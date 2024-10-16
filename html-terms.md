@@ -159,6 +159,12 @@ Smaller step values will make the slider move more fluidly, whereas larger step 
 
   ID is meant to style only one element. IDs override the styles of types and classes.
 
+**Select and style all elements with class="intro"**
+
+  .intro {
+  background-color: yellow;
+}
+
  **Specificity** is the order by which the browser decides which CSS styles will be displayed. A best practice in CSS is to style elements while using the lowest degree of specificity so that if an element needs a new style, it is easy to override. IDs are the most specific selector in CSS, followed by classes, and finally, type. 
 
   **Chaining** is done by combining multiple selectors. h1.special { } The code above would select only the < h1 > elements with a class of special.
