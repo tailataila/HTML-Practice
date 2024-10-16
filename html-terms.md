@@ -162,7 +162,9 @@ Smaller step values will make the slider move more fluidly, whereas larger step 
 **Select and style all elements with class="intro"**
 
   .intro {
+  
   background-color: yellow;
+  
 }
 
  **Specificity** is the order by which the browser decides which CSS styles will be displayed. A best practice in CSS is to style elements while using the lowest degree of specificity so that if an element needs a new style, it is easy to override. IDs are the most specific selector in CSS, followed by classes, and finally, type. 
